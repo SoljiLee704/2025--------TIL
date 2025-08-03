@@ -4,11 +4,6 @@
 
 using namespace std;
 
-//cin의 특징 이해 -> cin은 공백 기준으로 입력
-//2차원 벡터 선언 vector<요소의 자료형>임을 고려하여 vector<vector<... 이렇듯 겹쳐써야 함!
-//문제 주의사항 잘 읽기 그리고 헤더가 다 제시되었는지 확인
-//런타임 에러문제 생기지 않게 최대한 단순하게 코딩 필요!!
-
 /*
 int countrepaint(const vector<string>& board, int row, int col){
     int repaint1 = 0;
@@ -64,4 +59,10 @@ int main(){
     }
 
     cout << words[0];
+
 }
+
+cin, scanf, getline(), cin.get() 등 입력 명령어에 대해 자세히 파악 필요.
+문제에 예외사항, 특이사항있는지 자세히 확인 
+코딩은 최대한 단순하게 해서 런타임 에러 안 생기도록 주의
+2차원 벡터는 벡터<요소의 자료형>이라는 점을 고려해서 벡터<벡터<...>> 형식으로 선언함 
